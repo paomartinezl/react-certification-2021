@@ -9,7 +9,7 @@ const videosData = data.items.filter((item) => item.id.kind.includes('video'));
 function HomePage() {
   return (
     <section className="homepage">
-      <h1>Welcome to Paola`&apos;`s Challenge!</h1>
+      <h1>Welcome to Paola&apos;s Challenge!</h1>
       <VideoGrid videosData={videosData} />
     </section>
   );

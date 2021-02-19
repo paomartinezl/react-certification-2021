@@ -3,7 +3,6 @@ import VideoGridStyled from './VideoGrid.styled';
 import VideoCard from '../VideoCard';
 
 const VideoGrid = ({ videosData }) => {
-  console.log(videosData);
   return (
     <VideoGridStyled>
       {videosData.map((video) => {

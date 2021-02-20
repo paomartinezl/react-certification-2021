@@ -10,9 +10,9 @@ describe('LoginButton component', () => {
   });
   it('opens login', () => {
     const { container } = render(<LoginButton />);
-    const openButton = getByTestId(container, "openButton");
+    const openButton = getByTestId(container, 'openButton');
 
     fireEvent.click(openButton);
-    expect(openButton).toHaveAttribute('data-open', "true");
+    expect(openButton).toHaveAttribute('data-open', 'true');
   });
 });

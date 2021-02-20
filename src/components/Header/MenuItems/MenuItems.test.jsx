@@ -15,9 +15,9 @@ describe('MenuItems component', () => {
   });
   it('opens menu bar', () => {
     const { container } = render(<MenuItems />);
-    const openButton = getByTestId(container, "openButton");
+    const openButton = getByTestId(container, 'openButton');
 
     fireEvent.click(openButton);
-    expect(openButton).toHaveAttribute('data-open', "true");
+    expect(openButton).toHaveAttribute('data-open', 'true');
   });
 });

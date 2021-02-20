@@ -38,12 +38,14 @@ const MenuItems = () => {
         onClick={handleDrawerOpen}
         edge="start"
         className={classes.icon}
+        data-testid="openButton"
+        data-open={open}
       >
         <MenuIcon />
       </IconButton>
-      <SwipeableDrawer anchor="left" open={open}>
+      <SwipeableDrawer anchor="left" open={open} data-testid="openState">
         <div>
-          <IconButton onClick={handleDrawerClose}>
+          <IconButton onClick={handleDrawerClose} data-testid="closeButton">
             <ChevronLeftIcon />
           </IconButton>
         </div>

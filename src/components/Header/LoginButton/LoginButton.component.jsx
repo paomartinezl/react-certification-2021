@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 export default function LogginButton() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
   const classes = useStyles();
 
   const handleClick = (event) => {
@@ -32,6 +32,8 @@ export default function LogginButton() {
         aria-haspopup="true"
         onClick={handleClick}
         className={classes.margin}
+        data-testid="openButton"
+        data-open={Boolean(anchorEl)}
       >
         <AccountBoxIcon fontSize="large" />
       </IconButton>

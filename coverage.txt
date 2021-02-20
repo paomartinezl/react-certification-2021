@@ -1,0 +1,58 @@
+-----------------------------------|----------|----------|----------|----------|-------------------|
+File                               |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+-----------------------------------|----------|----------|----------|----------|-------------------|
+All files                          |    73.81 |        0 |    65.52 |    73.17 |                   |
+ src                               |        0 |      100 |      100 |        0 |                   |
+  index.js                         |        0 |      100 |      100 |        0 |                 6 |
+ src/components/App                |      100 |      100 |      100 |      100 |                   |
+  App.component.jsx                |      100 |      100 |      100 |      100 |                   |
+  App.styled.jsx                   |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/Header             |      100 |      100 |      100 |      100 |                   |
+  Header.component.jsx             |      100 |      100 |      100 |      100 |                   |
+  Header.styled.jsx                |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/Header/DarkMode    |      100 |      100 |      100 |      100 |                   |
+  DarkMode.component.jsx           |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/Header/LoginButton |    88.89 |      100 |       75 |     87.5 |                   |
+  LoginButton.component.jsx        |    88.89 |      100 |       75 |     87.5 |                24 |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/Header/MenuItems   |    88.89 |      100 |    66.67 |    88.89 |                   |
+  MenuItems.component.jsx          |    88.89 |      100 |    66.67 |    88.89 |                30 |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/Header/SearchField |      100 |      100 |      100 |      100 |                   |
+  SearchField.component.jsx        |      100 |      100 |      100 |      100 |                   |
+  SearchField.styled.jsx           |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/Layout             |      100 |      100 |      100 |      100 |                   |
+  Layout.component.jsx             |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/VideoCard          |      100 |      100 |      100 |      100 |                   |
+  VideoCard.component.jsx          |      100 |      100 |      100 |      100 |                   |
+  VideoCard.styled.jsx             |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/components/VideoGrid          |      100 |      100 |      100 |      100 |                   |
+  VideoGrid.component.jsx          |      100 |      100 |      100 |      100 |                   |
+  VideoGrid.styled.jsx             |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/pages/Home                    |      100 |      100 |      100 |      100 |                   |
+  Home.page.jsx                    |      100 |      100 |      100 |      100 |                   |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/pages/Login                   |        0 |      100 |        0 |        0 |                   |
+  Login.page.jsx                   |        0 |      100 |        0 |        0 |   8,9,12,13,14,17 |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/pages/NotFound                |        0 |      100 |        0 |        0 |                   |
+  NotFound.page.jsx                |        0 |      100 |        0 |        0 |                 7 |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/pages/Secret                  |        0 |      100 |        0 |        0 |                   |
+  Secret.page.jsx                  |        0 |      100 |        0 |        0 |                 5 |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/providers/Auth                |    52.94 |        0 |       40 |    52.94 |                   |
+  Auth.provider.jsx                |    52.94 |        0 |       40 |    52.94 |... 13,27,28,32,33 |
+  index.js                         |        0 |        0 |        0 |        0 |                   |
+ src/utils                         |    72.73 |      100 |    66.67 |    72.73 |                   |
+  constants.js                     |      100 |      100 |      100 |      100 |                   |
+  parseHtmlToString.js             |      100 |      100 |      100 |      100 |                   |
+  storage.js                       |    57.14 |      100 |       50 |    57.14 |            7,8,13 |
+-----------------------------------|----------|----------|----------|----------|-------------------|
